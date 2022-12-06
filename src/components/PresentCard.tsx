@@ -1,6 +1,6 @@
 import React from "react";
 import { Present } from "../types/types";
-import { AlternativeBtn } from "../ui-kit/Button";
+import { AlternativeBtn, DangerBtn } from "../ui-kit/Button";
 
 type PresentCardProps = {
   present: Present;
@@ -33,6 +33,10 @@ function PresentCard({ present, onPresentDelete }: PresentCardProps) {
         </p>
         <AlternativeBtn
           innerText="Change details"
+          onBtnClick={() => console.log(id)}
+        />
+        <DangerBtn
+          innerText="Remove"
           onBtnClick={() => handlePresentDelete(id)}
         />
       </div>

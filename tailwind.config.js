@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "dark-purple": "#081A51",
+        "light-white": "rgba(255,255,255,0.17)",
+      },
+    },
     container: {
       // you can configure the container to be centered
       center: true,

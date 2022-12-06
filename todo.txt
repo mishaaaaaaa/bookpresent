@@ -1,0 +1,7 @@
+Need add: 
+1. Delete btn and display them 
+1.1. solve why cards overflow container 
+2. Presents to local storage 
+3. side bar 
+4. figma creating wishlists logic 
+
