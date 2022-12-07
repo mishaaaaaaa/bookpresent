@@ -15,7 +15,7 @@ function PresentCard({ present, onPresentDelete }: PresentCardProps) {
   const handlePresentDelete = onPresentDelete;
   return (
     <div
-      className="w-full md:w-1/3 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 
+      className="w-auto bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 
       dark:border-gray-700"
     >
       {/* <a href="#">
